@@ -6,6 +6,10 @@ const plugin: EggPlugin = {
   //   enable: true,
   //   package: 'egg-view-nunjucks',
   // },
+  graphql: {
+    enable: true,
+    package: 'egg-graphql',
+  },
 };
 
 export default plugin;
